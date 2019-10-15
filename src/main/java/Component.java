@@ -2,7 +2,12 @@ public abstract class Component {
     protected String make;
     protected String model;
 
-    public String make(){
+    public Component(String make, String model){
+        this.make = make;
+        this.model = model;
+    }
+
+    public String getMake(){
         return make;
     }
 
