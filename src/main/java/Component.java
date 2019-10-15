@@ -14,4 +14,8 @@ public abstract class Component {
     public String getModel(){
         return model;
     }
+
+//    public abstract void turnOn();
+//
+//    public abstract void turnOff();
 }
